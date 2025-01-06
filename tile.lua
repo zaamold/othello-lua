@@ -67,7 +67,7 @@ function Tile:draw()
       self.baseY + self.spaceWidth / 2 + self.spaceWidth * self.column,
       self.radius
     )
-end
+end--change
 
 function Tile:setTeam(team)
     self.team = team
